@@ -1,0 +1,19 @@
+header {
+  background-color: #aca9a9;
+}
+body {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 1024px;
+  background-color: #939597;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", sans-serif;
+  color: rgb(5, 5, 5);
+}
+footer {
+  background-color: rgb(39, 37, 37);
+  margin-top: 50px;
+  font-size: xx-small;
+}
