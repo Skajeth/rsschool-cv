@@ -1,17 +1,34 @@
+body {
+  text-align: center;
+  max-width: 1024px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #c0c1c2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   background-color: #aca9a9;
 }
-body {
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 1024px;
-  background-color: #939597;
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("https://sun2.beltelecom-by-minsk.userapi.com/c852228/v852228857/1a1d28/OugWd1RPGJY.jpg");
+  background-size: cover;
+  background-position-y: -30px;
+  margin: 0 auto;
 }
+
 p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", sans-serif;
   color: rgb(5, 5, 5);
 }
+
 footer {
   background-color: rgb(39, 37, 37);
   margin-top: 50px;
